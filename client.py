@@ -127,8 +127,8 @@ def upload(service_name, filepath):
 
 if len(sys.argv) != 4:
     print("Cara pakai:")
-    print(" Upload   : python client.py filenodeA upload report.pdf")
-    print(" Download : python client.py filenodeA download report.pdf")
+    print(" Upload   : python client.py filenodeA upload ", filename)
+    print(" Download : python client.py filenodeA download " , filename)
     sys.exit()
 
 SERVICE = sys.argv[1]
